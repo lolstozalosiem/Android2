@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_bright"
+    android:gravity="center"
+    android:orientation="vertical"
+
+    >
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ruda Slaska"
+        android:textSize="35dp"
+        android:textColor="@android:color/primary_text_dark"
+        android:id="@+id/miasto"/>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Słoneczna Pogoda"
+        android:layout_marginTop="50dp"
+        android:textSize="20dp"
+        android:textColor="#72a0e5"
+        android:id="@+id/informacja"/>
+
+
+</RelativeLayout>
